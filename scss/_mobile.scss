@@ -1,0 +1,84 @@
+@media (max-width: 700px){
+
+    //MainHeader 
+    #mainheader {
+        height: 100%;
+    }//end mainheader
+
+    //NavBar
+
+    #navbar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        .logo {
+            float: none;
+            text-align: center;
+            padding-top: 20px;
+            height: 100%;
+        }
+
+        ul{ 
+        float: none;
+        padding-left: 160px;
+        text-transform: uppercase;
+        }//end #navbar ul
+    }//End #navbar
+
+    //Showcase
+
+    #showcase {
+        padding: 20px 0;
+        .showcase-row {
+            flex-wrap: wrap ;
+            &-txt {
+                padding-right: 0px;
+                text-align: center;
+                padding-bottom: 40px;
+            } //end #showcase .showcase-row &-tx
+            &-img {
+                padding-left: 140px;
+                img {
+                    width: 100%;
+                }
+            }
+        }//end #showcase .showcase-row
+    }//end #showcase
+
+
+    //Services 
+
+    #services {
+        padding: 40px 0;
+        h2,
+        p.large {
+            width: 100%;
+        }
+        .services-row {
+           flex-wrap: wrap;
+            padding: 0;
+            &-box{
+            padding: 10px;
+        
+        } //end #services .services-row
+    } // end #services
+
+    //Contact
+
+    #contact {
+        padding: 40px 0;
+        h2,
+        p.large {
+            width: 100%;
+        }
+        form{
+            padding-top: 30px;
+            width: 100%;
+            width: 100%;  
+            }
+        }
+
+    } //end #contact
+
+    
+}

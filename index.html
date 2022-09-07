@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicando Sass</title>
+    <link rel="stylesheet" href="./scss/style.css">
+</head>
+<body> 
+    <header id="mainheader">
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo">APLICANDO SASS</h1>
+                <ul>
+                  <li><a href="#mainheader">About</a></li>
+                  <li><a href="#services">Services</a></li> 
+                  <li><a href="#contact">Contact</a></li>   
+                </ul>
+            </div>
+        </nav>
+        <div id="showcase">
+            <div class="container">
+                <div class="showcase-row">
+                   <div class="showcase-row-txt">
+                        <p contenteditable="large">We are a full service</p>
+                        <h1>Creative <br> <span class="text-secundary">design agency</span></h1>
+                        <p class="large">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore atque totam eius mollitia corrupti, iusto perspiciatis. Porro commodi blanditiis obcaecati eius nemo illum ducimus, doloribus dolore et aut sequi quam.</p>
+                        <a href="#services" class="btn btn-dark">Learn More</a>
+                   </div> 
+                   <div class="showcase-row-img">
+                    <img src="./imagen/showcase.png" alt="foto">
+                </div>  
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="services">
+        <div class="container">
+            <h2>What we do</h2>
+            <p class="large">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus odit quisquam fugiat fugit, vero excepturi. Debitis qui blanditiis quasi laboriosam.
+            </p>
+            <div class="services-row">
+                <div class="services-row-box">
+                    <img src="./imagen/teclado.png" alt="ux research">
+                    <h4 class="txt-secundary">UX Research</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus minima officia ipsa aspernatur
+                    </p>
+                </div>
+            <div class="services-row">
+                <div class="services-row-box">
+                    <img src="./imagen/montanas.png" alt="brand">
+                    <h4 class="txt-secundary">Brand</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus minima officia ipsa aspernatur
+                    </p>
+                </div>
+            <div class="services-row">
+                <div class="services-row-box">
+                    <img src="./imagen/seguridad-de-datos.png" alt="ux research">
+                    <h4 class="txt-secundary">UX Research</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus minima officia ipsa aspernatur
+                    </p>
+                </div>
+            <div class="services-row">
+                <div class="services-row-box">
+                    <img src="./imagen/camara.png" alt="photo">
+                    <h4 class="txt-secundary">Phorography</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus minima officia ipsa aspernatur
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="txt-secundary">Contact Us</h2>
+            <p class="large">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo quas, maiores aspernatur exercitationem alias nam ut itaque! Laboriosam, aut maiores!</p>
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="email">email</label>
+                    <input type="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="message">messenger</label>
+                    <textarea class="form-control" name="message" id="" cols="30" rows="10"></textarea>
+                </div>
+                <button class="btn btn-dark">Contac Us</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="main-footer">
+        <div class="container">
+            <h4>Daniela Betarte</h4>
+            <p>coderHouse</p>
+        </div>
+        
+    </section>
+</body>
+</html>
